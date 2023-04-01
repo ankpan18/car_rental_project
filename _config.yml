@@ -1,0 +1,3 @@
+theme: jekyll-theme-slate
+baseurl: "car_rental" # the subpath of your site, e.g. /blog
+url: "https://ankpan18.github.io" # the base hostname & protocol for your site, e.g. http://example.com

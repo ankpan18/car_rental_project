@@ -1,0 +1,11 @@
+1. create DATABASE id16023371_info;
+
+2.open the database and run
+source C:/xampp/htdocs/mydemo/create_table.sql;
+run this from sql/bin folder
+
+3.CREATE USER 'id16023371_info1'@'localhost' IDENTIFIED BY 'Carbook@123456';
+4.GRANT ALL PRIVILEGES ON id16023371_info.contact TO 'id16023371_info1'@'localhost';
+
+
+

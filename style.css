@@ -1,0 +1,61 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+}
+
+.container p {
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Newsreader', serif;
+}
+
+input,
+textarea {
+    border: 3px solid #1c1919;
+    border-radius: 12px;
+    outline: none;
+    width: 80%;
+    margin: 10px auto;
+    padding: 7px;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn1 {
+    color: white;
+    background: purple;
+    padding: 15px 25px;
+    border: 2px solid #0d0f0e;
+    border-radius: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.build {
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+    opacity: 0.6;
+}
+
+.SubmitMsg {
+    color: green;
+}
