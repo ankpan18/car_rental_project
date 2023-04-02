@@ -116,7 +116,7 @@ session_start();
         <div class="con1">
             <h1 style="color: rgb(255, 255, 255);">Get the best Cars</h1>
             <h2 style="color: rgb(255, 255, 255);">In Your Budget</h2>
-            <a class="btn btn-primary" href="cars.html" role="button">Book Now</a>
+            <a class="btn btn-primary" href="cars.php" role="button">Book Now</a>
 
         </div>
     </div>
