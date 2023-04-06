@@ -11,13 +11,19 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>CAR RENTAL</title>
     <style>
-        .c1 {
+        .jumbotron {
+            height: 100%;
+            width: 100%;
+            background-image: url("../images/landscape.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
             text-align: center;
-            align-items: center;
+            justify-content: center;
         }
         
-        .con1 {
-            padding-top: 200px;
+        .breadcrumb {
+            background-color: white;
         }
         
         .social {
@@ -31,21 +37,6 @@
         
         .social li a {
             margin-left: 50px;
-        }
-        
-        .inst {
-            background-image: linear-gradient(rgb(12 202 233), rgb(112, 248, 241));
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-            top: -32px;
-        }
-        
-        .jumbotron {
-            background-image: url("bmw.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 700px;
         }
         
         .ha {
@@ -70,10 +61,10 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="cars.html">Cars</a>
                 </li>
                 <li class="nav-item">
@@ -103,38 +94,82 @@
             </ul>
         </div>
     </nav>
-    <div class="jumbotron c1">
-        <div class="con1">
-            <h1 style="color: rgb(255, 255, 255);">Get the best Cars</h1>
-            <h2 style="color: rgb(255, 255, 255);">In Your Budget</h2>
-            <a class="btn btn-primary" href="cars.html" role="button">Book Now</a>
 
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>We are here to take you there.</h1>
         </div>
     </div>
-    <div class="container-fluid inst">
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Cars</li>
+        </ol>
+    </nav>
+
+    <div class="container">
+        <h2 style="margin-bottom:5%;">Why Us?</h2>
+        <p>Travel with us and enjoy your precious time. A never before experience and rates that justify all-from budget to luxury. CarRental is poised to take advantage of this growth and moderate competition in the city travel portion of the industry,
+            with a dedicated and experienced staff, excellent networking, and effective management and marketing. </p>
+        <p>Services and products provided by US will be according to clients specifications, travel consultation, and as time progresses making reservations for lodging. CarRental seeks to differentiate itself as the premier adventure travel partner in this
+            valley area. We have 4 cars in our catalogue.
+        </p>
+        <h2>Cars</h2>
         <div class="row">
-            <div class="col-lg-4">
-                <h3 class="samp">5 Cars</h3>
-                <p class="samp-t">Explore a variety of cars</p>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="../images/maruti-suzuki-alto-800-silky-silver.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Alto 800</h5>
+                        <p class="card-text">Car Rate-Rs6/km</p>
+                        <p class="card-text">Type:HatchBack</p>
+                        <a href="booking.php" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <h3 class="samp">Best Support</h3>
-                <p class="samp-t">Find the best car for your need.</p>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="../images/wagonr.jpg" class="card-img-top" alt="..." width="50%;">
+                    <div class="card-body">
+                        <h5 class="card-title">WagonR</h5>
+                        <p class="card-text">Car Rate-Rs7/km</p>
+                        <p class="card-text">Type:HatchBack</p>
+                        <a href="booking.php" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <h3 class="samp">Exclusive Benefits</h3>
-                <p class="samp-t">Enjoy our service</p>
+        </div>
+        <div class="row py-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="../images/Honda-Amaze.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Honda Amaze</h5>
+                        <p class="card-text">Car Rate-Rs8/km</p>
+                        <p class="card-text">Type:HatchBack</p>
+                        <a href="booking.php" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="../images/innova_crysta.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Innova</h5>
+                        <p class="card-text">Car Rate-Rs9/km</p>
+                        <p class="card-text">Type:HatchBack</p>
+                        <a href="booking.php" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="ha">
-        <h1>Book A Car Anytime Anywhere</h1>
-        <h3> Rent a car in Dehradun with Savaari & get rid of all the hassles of self-drive car rentals</h3>
-        <p>Dehradun, the capital of Uttarakhand is by the foothills of the mighty Himalayas and is a great place to spend a quick weekend to cool off. Known for the beautiful greenery surrounding the area, it is home to many different types of flora and
-            fauna in the country. You could opt for a Dehradun car hire and enjoy driving through this pristine town. Local car hire in Dehradun ensures that you explore this quaint, little town at your own pace and also not have to worry about losing
-            your way. Our drivers are experienced and will ensure you have a smooth ride throughout.</p>
-    </div>
-    <div class="footer">
+
+
+
+
+    <div class="footer py-4">
         <ul style="list-style: none;">
             <li>About Us</li>
             <li>Contact</li>

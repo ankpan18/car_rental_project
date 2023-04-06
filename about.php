@@ -21,7 +21,7 @@ session_start();
         .jumbotron {
             height: 100%;
             width: 100%;
-            background-image: url("landscape.png");
+            background-image: url("./images/landscape.png");
             background-repeat: no-repeat;
             background-size: cover;
             color: white;
@@ -86,18 +86,14 @@ session_start();
     <div class="container">
         <p>
             Welcome to CarRental, your number one source for all things- regarding renting cars. We're dedicated to giving you the very best of Cars, with a focus on high mileage, build quality, speed, reliability and affordability .</p>
-        <p> Founded in 2021, by CarRental has come a long way from its beginnings in Dehradun. When we first started out, our passion for "budget affordable vehicles" drove them to do tons of research, so that CarRental can offer you best experience in the
+        <p> Founded in 2022, by CarRental has come a long way from its beginnings in Dehradun. When we first started out, our passion for "budget affordable vehicles" drove them to do tons of research, so that CarRental can offer you best experience in the
             local market. We now serve customers all over Uttarakhand, and are thrilled that we're able to turn our passion into our own website. </p>
 
         <p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
 
         </p>
         <h2>Our Team</h2>
-        <h4>1. Ankur Panthri </h4>
-        <h4>2. Nishant Uniyal </h4>
-        <h4>3. Sarthak Joshi </h4>
-        <h4>4. Shubham Kuniyal </h4>
-        <h4>5. Prashant Lakhera</h4>
+        <h4>Ankur Panthri </h4>
     <!--    <p>
             To Be Continued..........................................................................................
         </p>-->

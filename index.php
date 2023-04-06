@@ -50,7 +50,7 @@ session_start();
         }
         
         .jumbotron {
-            background-image: url("bmw.jpg");
+            background-image: url("./images/bmw.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             height: 700px;
@@ -123,7 +123,7 @@ session_start();
     <div class="container-fluid inst">
         <div class="row">
             <div class="col-lg-4">
-                <h3 class="samp">5 Cars</h3>
+                <h3 class="samp">4 Cars</h3>
                 <p class="samp-t">Explore a variety of cars</p>
             </div>
             <div class="col-lg-4">

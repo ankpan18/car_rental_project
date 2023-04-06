@@ -89,7 +89,7 @@ mysqli_close($conn);
         .jumbotron {
             height: 100%;
             width: 100%;
-            background-image: url("landscape.png");
+            background-image: url("./images/landscape.png");
             background-repeat: no-repeat;
             background-size: cover;
             color: white;
@@ -131,7 +131,7 @@ mysqli_close($conn);
     </nav>
 
 
-    <img class="build" src="bg.jpg" alt="">
+    <img class="build" src=".images/bg.jpg" alt="">
     <div class="container container1">
         <h1>Welcome to Car Rental</h1>
         <p>Enter your details and submit this form to connect with us.</p>

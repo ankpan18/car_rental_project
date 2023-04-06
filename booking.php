@@ -59,7 +59,7 @@ else{
         .jumbotron {
             height: 100%;
             width: 100%;
-            background-image: url("landscape.png");
+            background-image: url("./images/landscape.png");
             background-repeat: no-repeat;
             background-size: cover;
             color: white;

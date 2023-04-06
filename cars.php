@@ -21,7 +21,7 @@ session_start();
         .jumbotron {
             height: 100%;
             width: 100%;
-            background-image: url("landscape.png");
+            background-image: url("./images/landscape.png");
             background-repeat: no-repeat;
             background-size: cover;
             color: white;
@@ -80,13 +80,13 @@ session_start();
         <p>Travel with us and enjoy your precious time. A never before experience and rates that justify all-from budget to luxury. CarRental is poised to take advantage of this growth and moderate competition in the city travel portion of the industry,
             with a dedicated and experienced staff, excellent networking, and effective management and marketing. </p>
         <p>Services and products provided by US will be according to clients specifications, travel consultation, and as time progresses making reservations for lodging. CarRental seeks to differentiate itself as the premier adventure travel partner in this
-            valley area. We have 5 cars in our catalogue.
+            valley area. We have 4 cars in our catalogue.
         </p>
         <h2>Cars</h2>
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
-                    <img src="maruti-suzuki-alto-800-silky-silver.png" class="card-img-top" alt="...">
+                    <img src="./images/maruti-suzuki-alto-800-silky-silver.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Alto 800</h5>
                         <p class="card-text">Car Rate-Rs6/km</p>
@@ -97,7 +97,7 @@ session_start();
             </div>
             <div class="col-md-6">
                 <div class="card">
-                    <img src="wagonr.jpg" class="card-img-top" alt="..." width="50%;">
+                    <img src="./images/wagonr.jpg" class="card-img-top" alt="..." width="50%;">
                     <div class="card-body">
                         <h5 class="card-title">WagonR</h5>
                         <p class="card-text">Car Rate-Rs7/km</p>
@@ -110,7 +110,7 @@ session_start();
         <div class="row py-4">
             <div class="col-md-6">
                 <div class="card">
-                    <img src="Honda-Amaze.png" class="card-img-top" alt="...">
+                    <img src="./images/Honda-Amaze.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Honda Amaze</h5>
                         <p class="card-text">Car Rate-Rs8/km</p>
@@ -121,7 +121,7 @@ session_start();
             </div>
             <div class="col-md-6">
                 <div class="card">
-                    <img src="innova_crysta.png" class="card-img-top" alt="...">
+                    <img src="./images/innova_crysta.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Innova</h5>
                         <p class="card-text">Car Rate-Rs9/km</p>
